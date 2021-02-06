@@ -138,7 +138,7 @@ header {
 
 .bottom {
 	display: flex;
-	position: relative;
+	
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
@@ -380,8 +380,18 @@ header {
 	}
 	
 	.social-icons {
-		order: 2;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		bottom: 5%;
+		left: 2%;
 	}
+
+	.bottom .social-icons i {
+		margin-bottom: 5px;
+		font-size: 20px;
+	}
+
 
 	.navigation ul li {
 
@@ -407,6 +417,7 @@ header {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		height: auto;
+
 	}
 
 	.second-top .s-text {
@@ -424,7 +435,7 @@ header {
 
 	.second-top .title-content {
 		font-size: 13px;
-		line-height: 25px;
+		line-height: 23px;
 	}
 	.second-top .y-video {
 		display: none;
@@ -453,9 +464,9 @@ header {
 		height: auto;
 		justify-content: center;
 		align-items: center;
-		padding: 10px 0;
+		padding: 5px 0;
 		padding-right: 0;
-		background: #ECF8EA ;
+		
 	}
 	.s-card {
 		width: 42%;
@@ -463,6 +474,7 @@ header {
 		margin: 5px;
 		padding: 10px;
 		padding-top: 15px;
+		padding-bottom: 0;
 		background: #FFFFFF 0% 0% no-repeat padding-box;
 		border: 3px solid #9EB998;
 		border-radius: 20px;
