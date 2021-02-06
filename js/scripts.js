@@ -12,6 +12,9 @@ $(document).ready(function(){
 			minSlides: 1,
 			maxSlides: 1,
 			speed: 1700,
+			oneToOneTouch: true,
+			swipeThreshold: 150,
+
 
 	})
 	

@@ -380,16 +380,8 @@ header {
 	}
 	
 	.social-icons {
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		bottom: 5%;
-		left: 2%;
-	}
-
-	.bottom .social-icons i {
-		margin-bottom: 5px;
-		font-size: 20px;
+		order: 2;
+		display: none;
 	}
 
 
