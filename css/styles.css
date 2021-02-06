@@ -381,7 +381,7 @@ header {
 	
 	.social-icons {
 		order: 2;
-		display: none;
+
 	}
 
 
@@ -453,7 +453,7 @@ header {
 	}
 
 	.s-cards {
-		height: auto;
+		height: 230px;
 		justify-content: center;
 		align-items: center;
 		padding: 5px 0;
