@@ -174,6 +174,10 @@ header {
 	padding: 5px 12px;
 }
 
+.second {
+	display: flex;
+	flex-direction: column;
+}
 .second-top {
 	display: flex;
 	flex-wrap: wrap;
@@ -374,10 +378,15 @@ header {
 	.bottom {
 		justify-content: center;
 	}
+	
+	.social-icons {
+		order: 2;
+	}
 
 	.navigation ul li {
+
 		margin: 5px;
-		margin-top: 15px;
+		margin-top: 0px;
 	}
 
 	.navigation ul li a {
@@ -393,10 +402,11 @@ header {
 	}
 
 	.second-top {
+		order: 2;
 		flex-direction: column;
 		padding-top: 15px;
 		padding-bottom: 15px;
-		height: 500px;
+		height: auto;
 	}
 
 	.second-top .s-text {
@@ -414,10 +424,10 @@ header {
 
 	.second-top .title-content {
 		font-size: 13px;
-		line-height: 28px;
+		line-height: 25px;
 	}
 	.second-top .y-video {
-		
+		display: none;
 		width: 100%;
 		justify-content: center;
 		order: 1;
@@ -441,13 +451,18 @@ header {
 
 	.s-cards {
 		height: auto;
-		justify-content: center
+		justify-content: center;
+		align-items: center;
+		padding: 10px 0;
+		padding-right: 0;
+		background: #ECF8EA ;
 	}
 	.s-card {
-		width: 40%;
+		width: 42%;
 		height: auto;
-		margin: 10px;
-		padding: 15px;
+		margin: 5px;
+		padding: 10px;
+		padding-top: 15px;
 		background: #FFFFFF 0% 0% no-repeat padding-box;
 		border: 3px solid #9EB998;
 		border-radius: 20px;
@@ -455,14 +470,17 @@ header {
 	}
 
 	.s-cards img {
-		width: 180px;
+		width: 120px;
 		position: relative;
 		left: 0%;
 		top: 0px;
-		margin-bottom: 20px
+		margin-bottom: 10px
 
 	}
-
+	
+	.cards {
+		justify-content: center !important;
+	}
 	.s-card h4 {
 		font-size: 11px;
 	}
